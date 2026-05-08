@@ -1,7 +1,7 @@
 # Class Diff - Maven 版本差异分析工具
 
-[![CI](https://github.com/baiqll/dep_class_diff/actions/workflows/ci.yml/badge.svg)](https://github.com/baiqll/dep_class_diff/actions/workflows/ci.yml)
-[![Release](https://github.com/baiqll/dep_class_diff/actions/workflows/release.yml/badge.svg)](https://github.com/baiqll/dep_class_diff/actions/workflows/release.yml)
+[![CI](https://github.com/nstion/dep_class_diff/actions/workflows/ci.yml/badge.svg)](https://github.com/nstion/dep_class_diff/actions/workflows/ci.yml)
+[![Release](https://github.com/nstion/dep_class_diff/actions/workflows/release.yml/badge.svg)](https://github.com/nstion/dep_class_diff/actions/workflows/release.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 快速分析 Maven Central 上的依赖不同版本之间的 class 文件变化。
@@ -11,12 +11,12 @@
 ### 方式 1: 使用安装脚本（推荐）
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/baiqll/dep_class_diff/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nstion/dep_class_diff/main/install.sh | bash
 ```
 
 ### 方式 2: 从 Release 下载
 
-访问 [Releases](https://github.com/baiqll/dep_class_diff/releases) 页面下载对应平台的二进制文件。
+访问 [Releases](https://github.com/nstion/dep_class_diff/releases) 页面下载对应平台的二进制文件。
 
 支持的平台：
 - Linux (x86_64, aarch64)
@@ -26,7 +26,7 @@ curl -fsSL https://raw.githubusercontent.com/baiqll/dep_class_diff/main/install.
 ### 方式 3: 从源码编译
 
 ```bash
-git clone https://github.com/baiqll/dep_class_diff.git
+git clone https://github.com/nstion/dep_class_diff.git
 cd dep_class_diff
 cargo build --release
 # 二进制文件位于 target/release/dep_class_diff
